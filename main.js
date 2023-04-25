@@ -1,3 +1,7 @@
-let text = "Terms";
-let result = text.link("https://docs.github.com/en/site-policy/github-terms/github-terms-of-service")
-document.getElementById("terms").innerHTML = result
+window.onload = function() {
+    let image = document.querySelector('.image');
+    let link = document.createElement('a');
+    link.href = 'https://github.com/';
+    link.appendChild(image.cloneNode(true));
+    image.parentNode.replaceChild(link, image);
+}
