@@ -34,14 +34,14 @@ p{
     width: 63px;
     height: 63px;
     position: absolute;
-    top: 10px;
-    left: 632px;
+    top: 10%;
+    left: 50%;
     transform: translate(-50%, -10%);
 }
 
 form {
-    height: 175px;
-    width: 275px;
+    height: 30%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -129,7 +129,7 @@ input[type=submit]:hover {
 
 .bottom_links {
     position: absolute;
-    bottom: 35px;
+    bottom: 10%;
     width: 100%;
     display: flex;
     font-size: 10px;
